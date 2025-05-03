@@ -1,9 +1,9 @@
-# 1. console cloud google 
-# 2 create new project
-# 3 Enable the project
-# 4 search admin api go to app engine admin api and click enable
-# 5 go to cloud shell
-# 6 click on code in this file and copy https path only.
-# 7 add git clone https://github.com/sunakshigaikwad/LP-2.git in cloud shell 
-# 8 add command ls in cloud shell then cd LP-2 then ls then python c1.py you can see hello output
-print("Hello")
+Install google app engine 
+https://www.npackd.org/p/com.google.AppEnginePythonSDK/1.9.62
+install python 2.7
+open google app engine
+select edit -> preferences-> add paths
+create one folder name app
+go to file -> create new application -> select folder 
+select engineapp and run -> open localhost:8080
+youtube link:https://www.youtube.com/watch?v=2lhOEO-zmjw 
