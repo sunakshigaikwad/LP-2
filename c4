@@ -1,0 +1,18 @@
+https://developer.salesforce.com/signup
+settings->setup
+object manager->create->custom object
+Label =student
+plural label = student
+Description : Student issued book -> save and new
+Label = Book 
+Pural labels = Books
+Description = add book name -> save
+Object Manager->select Book -> Fields & Relationships->new
+Select Text datatype->next->Filed Label=Author Name , Length=20,Description=we can add author name , Check Required->next->next->save&new
+Select Text datatype->next->Filed Label=Publisher Name , Length=30,Description=we can add publish name , Check Required->next->next->save
+Object Manager->select Student -> Fields & Relationships->new
+Select Text datatype->next->Filed Label=Class, Length=10,Description= add year of student  , Check Required->next->next->save
+click setting->setup->search tabs click on it->click new->object book select tab style any ->next->next->save
+select object student select tab style any ->next->next->save
+click setting->setup->search app manager->new lighting app ->give app name Library Management system -> add any logo image if want ->next->next->can add some tab if needed and also student and book tab->next->click on system administrator drag it and save & finish
+click on app launcher type app name and open add new values like name class and save for books 
